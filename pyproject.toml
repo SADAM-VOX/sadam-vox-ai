@@ -1,1 +1,28 @@
-temp
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sadam-vox-ai"
+version = "0.1.0"
+description = "SADAM VOX Artificial Intelligence Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+
+authors = [
+    { name = "SADAM VOX Team" }
+]
+
+dependencies = []
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
