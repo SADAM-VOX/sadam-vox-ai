@@ -1,1 +1,60 @@
-temp
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Files
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Audio
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+
+# AI Models
+models/
+checkpoints/
+weights/
+
+# Cache
+.cache/
+cache/
+
+# Temporary
+tmp/
+temp/
+
+# Docker
+docker-data/
