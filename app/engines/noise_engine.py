@@ -1,13 +1,9 @@
 from pathlib import Path
 import subprocess
 import tempfile
-import shutil
 
 
 class NoiseEngine:
-    """
-    DeepFilterNet Engine
-    """
 
     def __init__(self):
         self.model = "DeepFilterNet"
